@@ -21,7 +21,7 @@ add_filter("mce_external_plugins", "enqueue_plugin_scripts");
 function enqueue_bootstrap($mce_css)
 {
 
-    $mce_css .= ', ' . plugins_url('bootstrap.min.css', __FILE__);
+    $mce_css .= ', ' . plugins_url('style.css', __FILE__);
     return $mce_css;
 }
 

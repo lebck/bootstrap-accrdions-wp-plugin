@@ -1,0 +1,35 @@
+/*@import "bootstrap.min.css"; */
+/*@import "/wp-content/themes/bootstrap-basic-theme/style.css"; */
+button.btn-hfb-accordion {
+  width: 100%;
+  background-color: #a0b400;
+  color: white;
+  font-family: "Kotta One", cursive;
+  text-align: left;
+  height: 30px;
+}
+
+button.btn-hfb-accordion .icon-chevron {
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+h1 {
+  font-family: "Kotta One", cursive;
+  font-size: 22px;
+  color: #22809c;
+}
+
+p {
+  font-family: "Roboto Light", sans-serif;
+}
+
+.collapse {
+  display: block;
+  color: grey;
+}
+
+.hfb-accordion {
+  border: 1px lightgrey dashed;
+}
